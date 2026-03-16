@@ -1,0 +1,5 @@
+h = float(input("Digite a altura do tronco (h): "))
+bmaior = float(input("Digite a base maior: "))
+bmenor = float(input("Digite a base menor: "))
+volume = h / 3 * (bmaior**2 + bmenor**2 + (bmaior**2 * bmenor**2)**0.5)
+print(f"Volume do tronco da pirâmide: {volume:.2f}")
